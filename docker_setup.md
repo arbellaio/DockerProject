@@ -9,9 +9,9 @@ we are using '.'
 
 To run docker container 
 
-docker run -p [ExternalPORT : InternalPORT] [dockerid/imagename]
+docker run -p [ExternalPORT : InternalPORT] -d [dockerid/imagename]
 
-docker run -p 8080:80 faizanaryan94/dockertest
+docker run -p 8080:80 -d faizanaryan94/dockertest
 
 
 To push docker image to docker hub
